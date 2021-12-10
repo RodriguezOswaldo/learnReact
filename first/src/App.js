@@ -3,10 +3,10 @@ import './App.css';
 function tryThis(){
     return(
         <div className="tryThis">
-            <h1  className="text-3xl font-bold text-clifford">Hello from the App file!</h1>
+            <h3  className="text-3xl font-bold ">Hello from the App file!</h3>
             <ul>
-                <li className="text-3xl font-bold text-clifford">try this!</li>
-                <li className="text-3xl font-bold text-clifford">try this x2!</li>
+                <li className="text-3xl">try this!</li>
+                <li className="text-3xl ">try this x2!</li>
             </ul>
         </div>
 

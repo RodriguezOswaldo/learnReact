@@ -2,9 +2,6 @@ function SecondPart(){
     return (
       <div className="SecondPart">
           <section>
-              <h2>One more component!</h2>
-          </section>
-          <section>
               <div className="bg-white dark:bg-gray-900 rounded-lg px-6 py-8 ring-1 ring-gray-900/5 shadow-xl">
                   <div>
                  <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">

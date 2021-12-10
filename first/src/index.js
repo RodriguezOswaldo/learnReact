@@ -13,7 +13,7 @@ import Nav from "./Nav";
 // )
 ReactDOM.render(
   <React.StrictMode>
-      <Nav />
+      <Nav/>
       <SecondPart/>
         <App />
   </React.StrictMode>
