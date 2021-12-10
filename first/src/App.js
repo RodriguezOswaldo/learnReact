@@ -1,5 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+function tryThis(){
+    return(
+        <div className="tryThis">
+            <h1  className="text-3xl font-bold text-clifford">Hello from the App file!</h1>
+            <ul>
+                <li className="text-3xl font-bold text-clifford">try this!</li>
+                <li className="text-3xl font-bold text-clifford">try this x2!</li>
+            </ul>
+        </div>
+
+    );
+}
 
 function App() {
   return (
@@ -22,17 +34,5 @@ function App() {
   );
 }
 
-function tryThis(){
-  return(
-      <div className="tryThis">
-        <h1  class="text-3xl font-bold text-clifford">Hello from the App file!</h1>
-          <ul>
-              <li class="text-3xl font-bold text-clifford">try this!</li>
-              <li class="text-3xl font-bold text-clifford">try this x2!</li>
-          </ul>
-      </div>
-
-  );
-}
 
 export default tryThis;
