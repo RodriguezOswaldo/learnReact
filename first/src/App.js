@@ -5,8 +5,9 @@ function tryThis(){
         <div className="tryThis">
             <h3  className="text-3xl font-bold ">Hello from the App file!</h3>
             <ul>
-                <li className="text-3xl">try this!</li>
-                <li className="text-3xl ">try this x2!</li>
+                <li>Continue in numeral 11</li>
+                <li>cd project</li>
+                <li>npm start</li>
             </ul>
         </div>
 
