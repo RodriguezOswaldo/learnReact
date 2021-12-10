@@ -4,11 +4,20 @@ import './index.css';
 import App from './App';
 import SecondPart from './OtherApp';
 import reportWebVitals from './reportWebVitals';
+import Nav from "./Nav";
 
+// const test = (
+//     <div>
+//         <h2>my test from the page</h2>
+//     </div>
+// )
 ReactDOM.render(
   <React.StrictMode>
-    <App /><SecondPart/>
+      <Nav />
+      <SecondPart/>
+        <App />
   </React.StrictMode>
+    // test
     ,
   document.getElementById('root')
 );
