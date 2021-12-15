@@ -7,16 +7,17 @@
   font-family: Inter;
   margin:0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root{
- background: #323336;
+ background: #fff;
 }
 .navBar{
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: #21222A;
-  width: 70%;
+  width: 90%;
   text-align: center;
   margin: auto ;
   position: relative;
@@ -27,9 +28,11 @@
   justify-content: center;
   align-items: center;
   left: 0;
+  margin:0;
 }
 .navBar .imageContainer > h3{
   margin: 10px;
+  font-size: 22px;
   color: #61DAFB;
 }
 .navBar .titleBar{
@@ -39,6 +42,38 @@
 .image{
   width: 40px;
 }
+.main{
+  background: #323336;
+  width: 90%;
+  margin-left:5%;
+  padding: 47px 27px;
+  color: #fff;
+  background-image:url("");
+}
+.main h1{
+ margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main .mainFacts{
+  margin-top: 46px;
+  margin-left: 50px;
+  max-width: 400px;
+}
+.main .mainFacts li{
+  line-height: 2;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.main .mainFacts li::marker{
+  font-size: 1.6rem;
+  color: #61DAFB;
+}
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -7,7 +7,6 @@ export default function Nav(){
             </div>
             <div className="titleBar">
                 <h3>React Course - Project 1</h3>
-
             </div>
         </div>
     )
