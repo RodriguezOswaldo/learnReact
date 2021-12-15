@@ -1,7 +1,44 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,100;1,100;1,200&family=Roboto:wght@100&family=Source+Sans+3:wght@200&display=swap');*/
+
 .App {
   text-align: center;
 }
-
+*{
+  font-family: Inter;
+  margin:0;
+  padding: 0;
+}
+:root{
+ background: #323336;
+}
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #21222A;
+  width: 70%;
+  text-align: center;
+  margin: auto ;
+  position: relative;
+  padding: 20px;
+}
+.navBar .imageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+}
+.navBar .imageContainer > h3{
+  margin: 10px;
+  color: #61DAFB;
+}
+.navBar .titleBar{
+  color: #fff;
+  font-size: 0.9em;
+}
+.image{
+  width: 40px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
