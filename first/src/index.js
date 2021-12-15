@@ -17,12 +17,12 @@ import YouGotItOwn from "./Why";
 
 ReactDOM.render(
   <React.StrictMode>
-      <Nav/>
+      {/*<Nav/>*/}
       <YouGotItOwn/>
-      <SecondPart/>
-        <App />
+      {/*<SecondPart/>*/}
+      {/*  <App />*/}
 
-      <Page />
+      {/*<Page />*/}
   </React.StrictMode>
     // test
     ,
