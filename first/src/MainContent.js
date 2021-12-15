@@ -5,7 +5,7 @@ export default function MainContent(){
             <ol>
                 <li>Cause I need it for a job</li>
                 <li>Cause I don't know many JS libraries</li>
-                <li>because the market is hot!!</li>
+                <li>Because this market is hot!!</li>
             </ol>
         </div>
     );
