@@ -59,7 +59,7 @@ body{
   transition: 0.5s;
   color:var(--clr);
 }
-.navigation ul li.active a .icon{
+.navigation ul li:hover  a .icon{
   transform:translateY(-34px);
 }
 .navigation ul li a .text{
@@ -71,7 +71,7 @@ body{
   transition: 0.5s;
   opacity: 0;
 }
-.navigation ul li.active a .text {
+.navigation ul li:hover a .text {
   opacity: 1;
   transform: translateY(18px);
 }
