@@ -10,8 +10,8 @@ export default function Info() {
                 <a href="#">oswaldorodriguez.website</a>
 
                 <div className="Buttons">
-                    <button><span></span>Email</button>
-                    <button><span></span>LinkedIn</button>
+                    <button><ion-icon name="mail"></ion-icon> Email</button>
+                    <button><ion-icon name="logo-linkedin"></ion-icon> LinkedIn</button>
                 </div>
             </div>
 

@@ -10,6 +10,7 @@ body{
   border-radius: 5%;
   width:45%;
   text-align: center;
+  margin-top:30px;
   margin-left: 30%;
   margin-right: 30%;
   background: #1A1B21;
@@ -19,7 +20,7 @@ body{
   color: #F3BF99;
 }
 img{
-width:75%;
+  width:75%;
   border-radius: 5%  5% 0 0;
 }
 .InfoCard .Buttons{
@@ -28,7 +29,7 @@ width:75%;
 .InfoCard .Buttons button{
   margin: 5px;
   padding: 4px;
-  border-radius: 15%;
+  border-radius:10%;
 }
 
 
