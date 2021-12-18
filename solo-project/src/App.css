@@ -3,8 +3,33 @@
   padding: 0;
   margin: 0;
 }
-
-
+body{
+  background:#23252c;
+}
+.InfoCard{
+  border-radius: 5%;
+  width:45%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: #1A1B21;
+  color: #fff;
+}
+.InfoCard .CareerName{
+  color: #F3BF99;
+}
+img{
+width:75%;
+  border-radius: 5%  5% 0 0;
+}
+.InfoCard .Buttons{
+  padding:20px;
+}
+.InfoCard .Buttons button{
+  margin: 5px;
+  padding: 4px;
+  border-radius: 15%;
+}
 
 
 .App {
