@@ -6,9 +6,6 @@ export default function Main(){
     return(
         <div>
             <Info/>
-            <About/>
-            <Interest/>
-            <Footer/>
         </div>
     );
 }
