@@ -1,4 +1,4 @@
-import Airbnb from './Airbnb.png';
+import Airbnb from '../Airbnb.png';
 
 export default function Nav(){
     return(
