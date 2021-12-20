@@ -11,6 +11,9 @@ export default function Test(){
         timeOfDay = "night"
     }
     return(
+        <div className="footer">
+
             <h1>Good {timeOfDay}, bud!</h1>
+        </div>
     );
 }

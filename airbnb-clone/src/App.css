@@ -38,13 +38,21 @@ body{
 .hero .heroText{
   margin-top: 5px;
 }
+.mainCard{
+  display: flex;
+  justify-content: space-around;
+}
+
 .card{
   width: 175px;
+  height: 228px;
+
   font-size: 12px;
 }
 .card .cardPhoto{
   width:100%;
-  /*border-radius: 9px;*/
+  max-height: 100%;
+  border-radius: 9px;
 }
 .card .cardStats{
   display: flex;
@@ -58,6 +66,10 @@ body{
   text-align: left;
 }
 
+
+.footer{
+  margin:100px;
+}
 .App {
   text-align: center;
 }
