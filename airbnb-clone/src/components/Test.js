@@ -12,7 +12,6 @@ export default function Test(){
     }
     return(
         <div className="footer">
-
             <h1>Good {timeOfDay}, bud!</h1>
         </div>
     );
