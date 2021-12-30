@@ -1,4 +1,5 @@
 export default function Talk(props){
+    console.log(props)
     return(
         <div>
             <div>this: {props.title}</div>

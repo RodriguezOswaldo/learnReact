@@ -1,4 +1,4 @@
-import airbnb from './airbnb-image.png'
+import airbnb from '../airbnb-image.png'
 export default function Hero(){
     return(
         <section className="hero">

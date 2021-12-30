@@ -38,26 +38,33 @@ body{
 .hero .heroText{
   margin-top: 5px;
 }
-.mainCard{
+/*.mainCard{*/
+/*  display: flex;*/
+/*  justify-content: space-around;*/
+/*  padding-left: 290px;*/
+/*}*/
+.cardList{
   display: flex;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  height: 350px;
 }
-
 .card{
   width:200px;
   height: 228px;
   font-size: 12px;
+  flex:0 0 auto;
+  flex-direction: column;
   margin: 10px;
+  position: relative;
 }
 .card .cardPhoto{
-  width:80%;
-  max-height: 70%;
+  width:100%;
+  max-height: 100%;
   border-radius: 9px;
 }
 .card .cardStats{
-  display: flex;
-  align-items: center;
-  /*justify-content: space-around;*/
+  text-align: left;
 }
 .card .cardStar{
   height: 14px;
@@ -65,7 +72,19 @@ body{
 .card .cardMessage{
   text-align: left;
 }
-
+.card .price{
+  text-align: left;
+}
+.cardBadge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 3px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  border-radius: 0px 5px ;
+}
 
 .footer{
   margin:100px;
