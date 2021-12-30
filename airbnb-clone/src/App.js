@@ -17,18 +17,11 @@ import data from "./data";
 
 export default function App() {
 
-    const cards = data.map(items =>{
+    const cards = data.map(items => {
         return <Card
             key={items.id}
-            title={items.title}
-            price={items.price}
-            coverImg={items.coverImg}
-            statsRat={items.stats.rating}
-            statsRev={items.stats.reviewCount}
-            description={items.description}
-            location={items.location}
-            star={items.star}
-            openSpots={items.openSpots}
+            item={items}
+            // I an using item={items} || {...items} if I use the second, I would need to delete the item in the Card Component
         />
     })
     //Jokes
