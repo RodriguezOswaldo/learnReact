@@ -2,6 +2,7 @@ import './App.css';
 import Card from "./components/Card";
 import data from "./data";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Nav/>
             {cities}
             <hr/>
+            <Footer/>
         </div>
 
     );

@@ -47,19 +47,21 @@
   flex-grow: 4;
   grid-template-columns: 1fr 2fr;
 }
-.imageContainer{
-  width:450px;
-  height: 200px;
-  background: #235;
-  flex-grow: 1;
-  grid-area:img;
-}
-.cotentContainer{
+.contentContainer{
   grid-area:content;
+  width: 120%;
 }
 .city{
   margin-bottom: 20px;
 }
+.imageContainer{
+  width:80%
+}
 .image{
   width: 100%;
+  box-shadow: 2px 2px 2px #5d5757;
+}
+.footer{
+  font-size: smaller;
+  padding:5px;
 }
