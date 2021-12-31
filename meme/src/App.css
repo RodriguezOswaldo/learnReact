@@ -26,5 +26,23 @@
 .form{
   display: grid;
   grid-template: 40px 40px /1fr 1fr;
-  gap:70px;
+  gap:17px;
+}
+main{
+  padding:36px;
+}
+.form--button{
+  grid-column: 1 / -1;
+  background: linear-gradient(-90deg, #0b2393 1.18%, #b70f57 100%);
+  color:#fff;
+  border: none;
+  cursor: pointer;
+}
+.form--input, .form--button{
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+}
+.form--input{
+  text-indent: 5px;
+
 }
