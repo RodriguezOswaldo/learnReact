@@ -2,20 +2,64 @@
 *{
   font-family: Inter;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 :root{
 --first-color: #F55A5A;
 }
 .Nav{
-  width: 100%;
-  position: fixed;
-  height: 40px;
   background:var(--first-color);
   text-align: center;
+  padding:2px;
+  border-radius: 5px 5px 0px 0;
 }
 .Nav h1{
   margin:8px;
   color: #fff;
-  line-height: 18px;
+  /*line-height: 18px;*/
+}
+.title{
+  display: flex;
+  gap:15px;
+}
+.location{
+  text-transform: uppercase;
+}
+.title .Link{
+  font-size: 0.7em;
+  line-height:1.7;
+}
+.icon{
+  font-size: 15px;
+  color: var(--first-color);
+}
+.bold{
+  font-weight: bold;
+}
+.Card{
+  display: grid;
+}
+.cardContainer{
+  display: flex;
+  gap:30px;
+  margin:30px;
+  text-align: left;
+  flex-grow: 4;
+  grid-template-columns: 1fr 2fr;
+}
+.imageContainer{
+  width:450px;
+  height: 200px;
+  background: #235;
+  flex-grow: 1;
+  grid-area:img;
+}
+.cotentContainer{
+  grid-area:content;
+}
+.city{
+  margin-bottom: 20px;
+}
+.image{
+  width: 100%;
 }
