@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -83,11 +83,20 @@ body {
 .counter--plus {
   margin-left: -20px;
 }
+.meme--img{
+  max-width: 60%;
+}
 
 .counter--minus {
   margin-right: -20px;
   z-index: 1;
 }
+
+
+/*
+Going out practice
+*/
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

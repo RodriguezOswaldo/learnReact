@@ -1,6 +1,7 @@
 import React from "react";
 function Navbar(){
     const [count, setCount] = React.useState(0)
+
     /**
      * Note: if you ever need the old value of state
      * to help you determine the new value of state,
