@@ -125,7 +125,29 @@ img {
   color: #61dafb;
 }
 
-a:hover {}
+a {
+  cursor: pointer;
+}
+
+a:link {
+  color: #0000FF;
+}
+
+a:visited {
+  color: #5e173a;
+}
+
+a:focus {
+  color: orange;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: cyan;
+}
 
 @keyframes App-logo-spin {
   from {
