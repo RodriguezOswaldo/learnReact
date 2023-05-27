@@ -7,19 +7,19 @@ export default function Info() {
     return (
         <section>
             <div className="InfoCard">
-                <img src={Own} alt="Own's photo"></img>
+                <img src={Own} alt="Own's"></img>
                 <h3>Own Rodríguez</h3>
                 <p className="CareerName">Full-Stack Developer</p>
-                <small>oswaldorodriguez.website</small>
+                <a href="https://portfolio-oswald.netlify.app/"><small>oswaldorodriguez.website</small></a>
                 <div className="Buttons">
                     <button><ion-icon name="mail"></ion-icon> Email</button>
                 </div>
                 <div className="Content">
-                    <About/>
-                    <Interest/>
+                    <About />
+                    <Interest />
                 </div>
 
-                <Footer/>
+                <Footer />
             </div>
 
         </section>
