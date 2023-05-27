@@ -130,11 +130,11 @@ a {
 }
 
 a:link {
-  color: #0000FF;
+  color: #bfbfd6;
 }
 
 a:visited {
-  color: #5e173a;
+  color: #945c78;
 }
 
 a:focus {
@@ -142,7 +142,7 @@ a:focus {
 }
 
 a:hover {
-  color: white;
+  color: rgb(59, 157, 134);
 }
 
 a:active {
