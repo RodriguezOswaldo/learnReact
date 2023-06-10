@@ -27,3 +27,8 @@ body {
   font-size: 20px;
   margin-right: auto;
 }
+
+.header-project {
+  font-size: 12px;
+  font-weight: 500;
+}
