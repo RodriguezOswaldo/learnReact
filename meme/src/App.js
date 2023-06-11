@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import Header from "./components/Header"
 import Meme from "./components/Meme"
 
@@ -9,7 +9,7 @@ function App() {
       <Meme />
     </div>
 
-  );
+  )
 }
 
 export default App;
