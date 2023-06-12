@@ -1,5 +1,9 @@
 @media (prefers-reduced-motion: no-preference) {}
 
+:root {
+  --gradient: linear-gradient(90deg, #672280 18%, #A626D3 100%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,8 +20,7 @@ main {
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(90deg, #672280 18%, #A626D3 100%);
-  color: white;
+  background: var(--gradient);
   padding: 25px;
 }
 
@@ -54,4 +57,9 @@ main {
   grid-column: 1/-1;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
+  background: var(--gradient);
+  color: white;
+  cursor: pointer;
+  border: none;
+
 }
