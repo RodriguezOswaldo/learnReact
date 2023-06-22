@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from "react"
 import './App.css';
 
+
 function App() {
+  const result = React.useState("Yes")
+  console.log(result)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="state">
+      <h1 className="state--title">Is State important to know?</h1>
+      <div className="state--value"><h1>{result[0]}</h1></div>
     </div>
   );
 }
