@@ -6,7 +6,8 @@ function App() {
   const [result, setResult] = React.useState(0)
 
   function add() {
-    setResult(result + 1)
+    // setResult(result + 1)
+    setResult(prevResult => prevResult + 1)
   }
   function remove() {
     setResult(result - 1)
