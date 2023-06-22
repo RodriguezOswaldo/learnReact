@@ -3,12 +3,24 @@ import './App.css';
 
 
 function App() {
-  const result = React.useState("Yes")
-  console.log(result)
+
+  const [result, setResult] = React.useState("Yes")
+
+  function handleClick() {
+    if (setResult === "Yes") {
+      setResult("No")
+    }
+    if (setResult === "No") {
+      setResult("Yes")
+    }
+
+  }
+
+
   return (
     <div className="state">
       <h1 className="state--title">Is State important to know?</h1>
-      <div className="state--value"><h1>{result[0]}</h1></div>
+      <div onClick={handleClick} className="state--value"><h1>{result}</h1></div>
     </div>
   );
 }
